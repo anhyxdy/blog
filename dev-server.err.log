@@ -1,0 +1,9 @@
+Browserslist: browsers data (caniuse-lite) is 17 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+
+[ERROR] Image file not found: src/assets/images/avatar.jpg
+13:00:48 [ERROR] file is not a function
+  Stack trace:
+    at D:\Desktop\blog\src\components\misc\ImageWrapper.astro:44:14
+    [...] See full stack trace in the browser, or rerun with --verbose.

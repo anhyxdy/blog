@@ -1,0 +1,221 @@
+12:51:16 [types] Generated 8ms
+12:51:17 [content] Syncing content
+12:51:18 [content] Astro config changed
+12:51:18 [content] Clearing content store
+12:51:22 [content] Synced content
+
+ astro  v5.13.10 ready in 21584 ms
+
+┃ Local    http://127.0.0.1:4321/
+
+12:51:22 watching for file changes...
+12:54:18 [200] / 4623ms
+12:54:18 [200] / 4635ms
+12:54:26 [200] /_image/ 2991ms
+12:54:26 [200] /_image/ 3414ms
+12:54:27 [200] / 277ms
+12:54:27 [200] /posts/expressive-code/ 222ms
+12:54:27 [200] /archive/ 311ms
+12:54:27 [200] /archive/ 221ms
+12:54:28 [200] /posts/guide/ 58ms
+12:54:28 [200] /archive/ 37ms
+12:54:28 [200] /posts/markdown/ 40ms
+12:54:28 [200] /posts/draft/ 36ms
+12:54:32 [200] /about/ 39ms
+12:54:32 [200] /posts/markdown-extended/ 44ms
+12:57:11 [watch] src/assets/images/banner.png
+12:58:29 [200] / 636ms
+12:58:30 [200] / 61ms
+12:58:32 [200] /posts/markdown-extended/ 33ms
+12:58:32 [200] /archive/ 41ms
+12:59:10 [watch] src/assets/images/avator.jpg
+13:00:31 [200] /posts/markdown/ 850ms
+13:00:31 [200] /posts/expressive-code/ 863ms
+13:00:31 [200] / 43ms
+13:00:34 [200] / 42ms
+13:00:34 [200] /archive/ 38ms
+13:00:37 [200] /about/ 53ms
+13:00:38 [200] /posts/markdown-extended/ 43ms
+13:00:38 [200] /archive/ 45ms
+13:00:38 [200] /posts/markdown/ 42ms
+13:00:39 [200] / 41ms
+13:00:40 [200] / 44ms
+13:00:40 [200] /about/ 42ms
+13:00:42 [200] /posts/expressive-code/ 25ms
+13:00:42 [200] /posts/markdown/ 44ms
+13:00:42 [200] /posts/video/ 49ms
+13:00:43 [200] /posts/guide/ 38ms
+13:00:46 [watch] src/config.ts
+13:00:46 [watch] src/config.ts
+13:03:55 [watch] src/config.ts
+13:03:55 [watch] src/config.ts
+13:03:58 [200] / 949ms
+13:04:00 [watch] src/components/misc/ImageWrapper.astro
+13:04:00 [watch] src/components/misc/ImageWrapper.astro
+13:04:03 [200] / 880ms
+13:04:06 [200] / 50ms
+13:06:42 [200] / 19ms
+13:06:46 [200] /_image/ 209ms
+13:06:46 [200] /_image/ 390ms
+13:06:47 [200] / 26ms
+13:06:47 [200] /posts/markdown-extended/ 19ms
+13:06:47 [200] /posts/expressive-code/ 18ms
+13:06:48 [200] /posts/guide/ 18ms
+13:06:50 [200] /about/ 17ms
+13:06:51 [200] /archive/ 19ms
+13:06:51 [200] /archive/ 18ms
+13:06:52 [200] /posts/markdown/ 17ms
+13:06:59 [200] /about/ 50ms
+13:06:59 [200] /_image/ 298ms
+13:07:00 [200] / 67ms
+13:07:01 [200] / 60ms
+13:07:03 [200] /archive/ 39ms
+13:07:03 [200] /posts/expressive-code/ 53ms
+13:07:03 [200] /posts/markdown-extended/ 88ms
+13:07:03 [200] /about/ 49ms
+13:07:04 [200] /archive/ 54ms
+13:07:09 [200] /archive/ 56ms
+13:07:09 [200] /posts/video/ 52ms
+13:07:10 [200] /archive/ 52ms
+13:07:10 [200] /posts/guide/ 54ms
+13:07:14 [200] /posts/draft/ 54ms
+13:07:15 [200] /posts/markdown/ 49ms
+13:07:15 [200] /archive/ 59ms
+13:08:21 [watch] src/config.ts
+13:08:21 [watch] src/config.ts
+13:08:24 [200] / 1468ms
+13:08:24 [200] / 1470ms
+13:08:27 [200] / 58ms
+13:08:28 [200] / 55ms
+13:08:47 [200] /posts/guide/ 18ms
+13:08:47 [200] /_image/ 307ms
+13:08:47 [200] /posts/expressive-code/ 15ms
+13:08:49 [200] /about/ 21ms
+13:08:54 [200] /posts/markdown-extended/ 45ms
+13:08:58 [200] /posts/expressive-code/ 58ms
+13:08:58 [200] /archive/ 64ms
+13:08:59 [200] /posts/markdown-extended/ 96ms
+13:08:59 [200] /_image/ 658ms
+13:09:00 [200] /posts/guide/ 65ms
+13:09:00 [200] /archive/ 54ms
+13:09:00 [200] /archive/ 58ms
+13:09:01 [200] /about/ 50ms
+13:09:03 [200] /archive/ 49ms
+13:09:04 [200] /archive/ 48ms
+13:09:05 [200] /archive/ 61ms
+13:09:05 [200] /archive/ 50ms
+13:09:08 [200] /archive/ 50ms
+13:09:09 [200] /archive/ 62ms
+13:09:44 [watch] src/config.ts
+13:09:44 [watch] src/config.ts
+13:09:47 [200] / 1413ms
+13:09:47 [200] / 1415ms
+13:09:49 [200] / 58ms
+13:09:50 [200] / 56ms
+13:09:51 [200] /posts/markdown-extended/ 53ms
+13:09:51 [200] /archive/ 54ms
+13:09:52 [200] /posts/expressive-code/ 50ms
+13:09:52 [200] /posts/markdown/ 49ms
+13:09:52 [200] /posts/guide/ 52ms
+13:09:52 [200] /archive/ 51ms
+13:09:54 [200] /archive/ 51ms
+13:09:54 [200] /archive/ 52ms
+13:10:00 [200] /archive/ 42ms
+13:10:03 [200] /posts/guide/ 22ms
+13:10:47 [200] /posts/expressive-code/ 18ms
+13:10:48 [200] /posts/markdown-extended/ 31ms
+13:11:18 [watch] src/config.ts
+13:11:18 [watch] src/config.ts
+13:11:21 [200] / 1477ms
+13:11:21 [200] / 1479ms
+13:11:24 [200] / 66ms
+13:11:25 [200] / 55ms
+13:12:16 [200] /posts/guide/ 27ms
+13:12:37 [200] /posts/markdown-extended/ 21ms
+13:12:37 [200] /archive/ 30ms
+13:12:38 [200] /posts/expressive-code/ 20ms
+13:13:03 [200] / 23ms
+13:13:04 [200] / 19ms
+13:13:04 [200] /posts/markdown-extended/ 30ms
+13:13:04 [200] /archive/ 26ms
+13:13:35 [watch] src/config.ts
+13:13:35 [watch] src/config.ts
+13:13:36 [200] / 328ms
+13:13:36 [200] / 328ms
+13:13:37 [200] / 17ms
+13:13:40 [200] / 18ms
+13:13:51 [watch] src/config.ts
+13:13:51 [watch] src/config.ts
+13:13:53 [200] / 343ms
+13:13:53 [200] / 345ms
+13:13:54 [200] / 18ms
+13:13:56 [200] / 15ms
+13:14:32 [200] /archive/ 34ms
+13:14:32 [200] /posts/guide/ 40ms
+13:14:32 [200] /about/ 43ms
+13:14:33 [404] /heyx2028@163.com 2ms
+13:14:46 [200] /archive/ 52ms
+13:15:32 [watch] src/config.ts
+13:15:32 [watch] src/config.ts
+13:15:33 [200] / 298ms
+13:15:33 [200] / 299ms
+13:15:34 [200] / 17ms
+13:15:35 [200] / 17ms
+13:15:39 [404] /heyx2028@163.com 1ms
+13:15:41 [404] /heyx2028@163.com 1ms
+13:15:43 [200] /about/ 43ms
+13:15:45 [200] /archive/ 43ms
+13:15:46 [200] /posts/markdown-extended/ 32ms
+13:17:50 [200] /posts/expressive-code/ 39ms
+13:17:50 [200] /posts/guide/ 51ms
+13:17:51 [200] /archive/ 50ms
+13:17:51 [200] /posts/markdown/ 44ms
+13:17:51 [200] /archive/ 37ms
+13:18:02 [200] /archive/ 59ms
+13:18:02 [200] /archive/ 49ms
+13:18:03 [200] /posts/draft/ 24ms
+13:18:04 [200] /archive/ 28ms
+13:18:05 [200] /archive/ 48ms
+13:20:09 [watch] src/content/spec/about.md
+13:20:09 [watch] src/content/spec/about.md
+13:20:09 [glob-loader] Reloaded data from about.md
+13:20:10 [200] /about/ 330ms
+13:20:10 [200] / 27ms
+13:20:12 [200] / 19ms
+13:20:13 [200] /about/ 15ms
+13:20:20 [200] / 33ms
+13:20:21 [200] /about/ 36ms
+13:20:21 [200] /about/ 35ms
+13:20:24 [200] /archive/ 27ms
+13:20:24 [200] /archive/ 32ms
+13:22:46 [watch] src/content/spec/about.md
+13:22:46 [watch] src/content/spec/about.md
+13:22:46 [glob-loader] Reloaded data from about.md
+13:22:47 [watch] src/content/spec/about.md
+13:22:47 [watch] src/content/spec/about.md
+13:22:47 [glob-loader] Reloaded data from about.md
+13:22:49 [200] /about/ 1033ms
+13:22:49 [200] /about/ 1034ms
+13:22:49 [200] /about/ 1035ms
+13:22:49 [200] / 1200ms
+13:22:49 [200] / 1130ms
+13:22:51 [200] / 42ms
+13:22:51 [200] /about/ 34ms
+13:22:52 [200] / 39ms
+13:22:53 [200] /about/ 33ms
+13:22:54 [200] /about/ 39ms
+13:22:56 [200] / 43ms
+13:22:57 [200] /archive/ 50ms
+13:22:57 [200] /posts/expressive-code/ 54ms
+13:22:57 [200] /posts/markdown/ 46ms
+13:23:00 [200] /archive/ 44ms
+13:23:00 [200] /posts/guide/ 42ms
+13:23:23 [200] /archive/ 47ms
+13:23:24 [200] /archive/ 40ms
+13:23:25 [200] /archive/ 31ms
+13:23:25 [200] /archive/ 49ms
+13:23:28 [200] /posts/markdown-extended/ 61ms
+13:28:12 [200] /archive/ 56ms
+13:28:17 [200] /archive/ 65ms
+13:28:23 [200] /archive/ 61ms
+13:28:29 [200] /posts/video/ 64ms
