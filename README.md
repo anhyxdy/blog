@@ -1,99 +1,161 @@
-# 🍥Fuwari  
-![Node.js >= 20](https://img.shields.io/badge/node.js-%3E%3D20-brightgreen) 
-![pnpm >= 9](https://img.shields.io/badge/pnpm-%3E%3D9-blue) 
-[![DeepWiki](https://img.shields.io/badge/DeepWiki-saicaca%2Ffuwari-blue.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/SQc0ICFQgzfc4CYZoTPAswgSJCCUJUnAAoRHOAUOcATwbmVLWdGoH//PB8mnKqScAhsD0kYP3j/Yt5LPQe2KvcXmGvRHcDnpxfL2zOYJ1mFwrryWTz0advv1Ut4CJgf5uhDuDj5eUcAUoahrdY/56ebRWeraTjMt/00Sh3UDtjgHtQNHwcRGOC98BJEAEymycmYcWwOprTgcB6VZ5JK5TAJ+fXGLBm3FDAmn6oPPjR4rKCAoJCal2eAiQp2x0vxTPB3ALO2CRkwmDy5WohzBDwSEFKRwPbknEggCPB/imwrycgxX2NzoMCHhPkDwqYMr9tRcP5qNrMZHkVnOjRMWwLCcr8ohBVb1OMjxLwGCvjTikrsBOiA6fNyCrm8V1rP93iVPpwaE+gO0SsWmPiXB+jikdf6SizrT5qKasx5j8ABbHpFTx+vFXp9EnYQmLx02h1QTTrl6eDqxLnGjporxl3NL3agEvXdT0WmEost648sQOYAeJS9Q7bfUVoMGnjo4AZdUMQku50McDcMWcBPvr0SzbTAFDfvJqwLzgxwATnCgnp4wDl6Aa+Ax283gghmj+vj7feE2KBBRMW3FzOpLOADl0Isb5587h/U4gGvkt5v60Z1VLG8BhYjbzRwyQZemwAd6cCR5/XFWLYZRIMpX39AR0tjaGGiGzLVyhse5C9RKC6ai42ppWPKiBagOvaYk8lO7DajerabOZP46Lby5wKjw1HCRx7p9sVMOWGzb/vA1hwiWc6jm3MvQDTogQkiqIhJV0nBQBTU+3okKCFDy9WwferkHjtxib7t3xIUQtHxnIwtx4mpg26/HfwVNVDb4oI9RHmx5WGelRVlrtiw43zboCLaxv46AZeB3IlTkwouebTr1y2NjSpHz68WNFjHvupy3q8TFn3Hos2IAk4Ju5dCo8B3wP7VPr/FGaKiG+T+v+TQqIrOqMTL1VdWV1DdmcbO8KXBz6esmYWYKPwDL5b5FA1a0hwapHiom0r/cKaoqr+27/XcrS5UwSMbQAAAABJRU5ErkJggg==)](https://deepwiki.com/saicaca/fuwari)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari?ref=badge_shield&issueType=license)
+# anh's blog
 
-A static blog template built with [Astro](https://astro.build).
+一个基于 [Astro](https://astro.build) 的个人博客模板，适合记录 Go 后端、技术笔记和日常随想。
 
-[**🖥️ Live Demo (Vercel)**](https://fuwari.vercel.app)
+## 项目特点
 
-![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
+- 支持文章列表、归档、分类和标签
+- 支持文章封面图和正文内图片
+- 支持深色模式、搜索、RSS、站点地图
+- 文章使用 Markdown 编写，维护简单
 
-🌏 README in
-[**中文**](https://github.com/saicaca/fuwari/blob/main/docs/README.zh-CN.md) /
-[**日本語**](https://github.com/saicaca/fuwari/blob/main/docs/README.ja.md) /
-[**한국어**](https://github.com/saicaca/fuwari/blob/main/docs/README.ko.md) /
-[**Español**](https://github.com/saicaca/fuwari/blob/main/docs/README.es.md) /
-[**ไทย**](https://github.com/saicaca/fuwari/blob/main/docs/README.th.md) /
-[**Tiếng Việt**](https://github.com/saicaca/fuwari/blob/main/docs/README.vi.md) /
-[**Bahasa Indonesia**](https://github.com/saicaca/fuwari/blob/main/docs/README.id.md) (Provided by the community and may not always be up-to-date)
+## 运行环境
 
-## ✨ Features
+- Node.js 20+
+- pnpm 9+
 
-- [x] Built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com)
-- [x] Smooth animations and page transitions
-- [x] Light / dark mode
-- [x] Customizable theme colors & banner
-- [x] Responsive design
-- [x] Search functionality with [Pagefind](https://pagefind.app/)
-- [x] [Markdown extended features](https://github.com/saicaca/fuwari?tab=readme-ov-file#-markdown-extended-syntax)
-- [x] Table of contents
-- [x] RSS feed
+## 本地启动
 
-## 🚀 Getting Started
+```bash
+pnpm install
+pnpm dev
+```
 
-1. Create your blog repository:
-    - [Generate a new repository](https://github.com/saicaca/fuwari/generate) from this template or fork this repository.
-    - Or run one of the following commands:
-       ```sh
-       npm create fuwari@latest
-       yarn create fuwari
-       pnpm create fuwari@latest
-       bun create fuwari@latest
-       deno run -A npm:create-fuwari@latest
-       ```
-2. To edit your blog locally, clone your repository, run `pnpm install` to install dependencies.
-    - Install [pnpm](https://pnpm.io) `npm install -g pnpm` if you haven't.
-3. Edit the config file `src/config.ts` to customize your blog.
-4. Run `pnpm new-post <filename>` to create a new post and edit it in `src/content/posts/`.
-5. Deploy your blog to Vercel, Netlify, GitHub Pages, etc. following [the guides](https://docs.astro.build/en/guides/deploy/). You need to edit the site configuration in `astro.config.mjs` before deployment.
+启动后访问：
 
-## 📝 Frontmatter of Posts
+```text
+http://127.0.0.1:4321/
+```
 
-```yaml
+## 常用命令
+
+```bash
+pnpm dev       # 启动开发环境
+pnpm check     # 类型检查
+pnpm build     # 构建生产版本
+pnpm preview   # 预览构建结果
+pnpm new-post  # 新建文章
+```
+
+## 写文章
+
+最简单的方式是用脚手架新建一篇文章：
+
+```bash
+pnpm new-post my-first-post
+```
+
+会在 `src/content/posts/` 下生成对应的 Markdown 文件。
+
+文章头部示例：
+
+```md
 ---
-title: My First Blog Post
-published: 2023-09-09
-description: This is the first post of my new Astro blog.
+title: 我的第一篇文章
+published: 2026-07-13
+updated: 2026-07-13
+description: 这是一篇文章简介
 image: ./cover.jpg
-tags: [Foo, Bar]
-category: Front-end
+tags: [Go, 后端, 学习]
+category: 技术笔记
 draft: false
-lang: jp      # Set only if the post's language differs from the site's language in `config.ts`
+lang: zh_CN
 ---
 ```
 
-## 🧩 Markdown Extended Syntax
+### 字段说明
 
-In addition to Astro's default support for [GitHub Flavored Markdown](https://github.github.com/gfm/), several extra Markdown features are included:
+- `title`：文章标题
+- `published`：发布时间，决定首页和归档页排序
+- `updated`：更新时间，可选
+- `description`：文章简介，会显示在首页卡片和搜索结果里
+- `image`：文章封面图
+- `tags`：标签，可多个
+- `category`：分类，通常一个
+- `draft`：是否草稿，`true` 的文章不会在生产环境展示
+- `lang`：文章语言，可选
 
-- Admonitions ([Preview and Usage](https://fuwari.vercel.app/posts/markdown-extended/#admonitions))
-- GitHub repository cards ([Preview and Usage](https://fuwari.vercel.app/posts/markdown-extended/#github-repository-cards))
-- Enhanced code blocks with Expressive Code ([Preview](https://fuwari.vercel.app/posts/expressive-code/) / [Docs](https://expressive-code.com/))
+## 图片怎么放
 
-## ⚡ Commands
+### 文章封面图
 
-All commands are run from the root of the project, from a terminal:
+推荐把文章和图片放在同一个目录，例如：
 
-| Command                    | Action                                              |
-|:---------------------------|:----------------------------------------------------|
-| `pnpm install`             | Installs dependencies                               |
-| `pnpm dev`                 | Starts local dev server at `localhost:4321`         |
-| `pnpm build`               | Build your production site to `./dist/`             |
-| `pnpm preview`             | Preview your build locally, before deploying        |
-| `pnpm check`               | Run checks for errors in your code                  |
-| `pnpm format`              | Format your code using Biome                        |
-| `pnpm new-post <filename>` | Create a new post                                   |
-| `pnpm astro ...`           | Run CLI commands like `astro add`, `astro check`    |
-| `pnpm astro --help`        | Get help using the Astro CLI                        |
+```text
+src/content/posts/my-post/
+  index.md
+  cover.jpg
+```
 
-## ✏️ Contributing
+然后在 frontmatter 里写：
 
-Check out the [Contributing Guide](https://github.com/saicaca/fuwari/blob/main/CONTRIBUTING.md) for details on how to contribute to this project.
+```md
+image: ./cover.jpg
+```
 
-## 📄 License
+### 正文图片
 
-This project is licensed under the MIT License.
+正文里直接用 Markdown 图片语法：
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari?ref=badge_large&issueType=license)
+```md
+![架构图](./arch.png)
+```
+
+如果图片放在 `public` 目录，例如：
+
+```text
+public/images/arch.png
+```
+
+那就写：
+
+```md
+![架构图](/images/arch.png)
+```
+
+## 分类和标签
+
+分类和标签都写在文章 frontmatter 里，不需要单独建文件。
+
+```md
+tags: [Go, Gin, 后端]
+category: 技术笔记
+```
+
+查看方式：
+
+- 归档页：`/archive/`
+- 按标签筛选：`/archive/?tag=Go`
+- 按分类筛选：`/archive/?category=技术笔记`
+- 未分类文章：`/archive/?uncategorized=true`
+
+## 个人信息修改
+
+如果你要继续定制博客，主要改这些地方：
+
+- `src/config.ts`：站点标题、副标题、头像、简介、社交链接、banner 开关
+- `src/content/spec/about.md`：关于页内容
+- `astro.config.mjs`：正式站点域名 `site`
+- `public/favicon/`：站点图标
+- `src/assets/images/`：头像、banner 等本地图片
+
+## 删除文章
+
+直接删除对应的 Markdown 文件即可。
+
+如果文章有配套图片，也一起删除对应图片文件。
+
+## 部署
+
+构建前建议先执行：
+
+```bash
+pnpm check
+pnpm build
+```
+
+然后把生成的 `dist/` 部署到 Vercel、Netlify、GitHub Pages 或你自己的服务器。
+
+## 备注
+
+这个项目已经不再使用模板示例内容，后续你只需要维护自己的文章和配置就行。
