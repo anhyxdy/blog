@@ -219,3 +219,14 @@
 13:28:17 [200] /archive/ 65ms
 13:28:23 [200] /archive/ 61ms
 13:28:29 [200] /posts/video/ 64ms
+13:49:12 [watch] src/content/posts/testpaper.md
+13:49:12 [glob-loader] Reloaded data from testpaper.md
+13:49:15 [200] / 864ms
+13:49:20 [200] / 94ms
+13:53:47 [glob-loader] Reloaded data from testpaper.md
+13:53:47 [glob-loader] Reloaded data from testpaper.md
+13:53:48 [glob-loader] Reloaded data from testpaper.md
+13:53:50 [watch] src/content/spec/about.md
+13:53:50 [watch] src/content/spec/about.md
+13:53:50 [glob-loader] Reloaded data from about.md
+13:53:51 [glob-loader] Reloaded data from testpaper.md
